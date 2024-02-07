@@ -32,7 +32,7 @@ namespace API.Controllers
             return basket;
         }
 
-      /*  [HttpPost("webhook")]
+        [HttpPost("webhook")]
         public async Task<ActionResult> StripeWebhook()
         {
             var json = await new StreamReader(Request.Body).ReadToEndAsync();
@@ -59,6 +59,6 @@ namespace API.Controllers
                     break;   
             }
             return new EmptyResult();
-        }*/
+        }
     }
 }
